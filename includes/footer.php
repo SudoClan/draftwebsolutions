@@ -96,5 +96,20 @@
 
 <!-- ====Main Script==== -->
 <script src="js/main.js"></script>
+
+<!-- ====Nav Drop Down Submenu==== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+ $(document).ready(function(){
+   $('.dropdown-submenu a.test').on("click", function(e){
+     $(this).next('ul').toggle();
+     e.stopPropagation();
+    e.preventDefault();
+   });
+ });
+ </script>
+ <!-- ====Nav Drop Down Submenu==== -->
+ 
 </body>
 </html>

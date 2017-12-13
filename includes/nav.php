@@ -28,7 +28,7 @@
                     </button>
                     <!-- Navbar Toggle Button End -->
                     <!-- Logo Start -->
-                    <a href="index.html" class="header--logo navbar-brand">
+                    <a href="index.php" class="header--logo navbar-brand">
                         <span><i class="fa fm fa-rocket"></i>Host</span>WHMCS
                     </a>
                     <!-- Logo End -->
@@ -39,40 +39,55 @@
                         <a href="login.html" class="btn--primary btn--ripple">Login</a>
                     </div>
 
+
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="index.php">Home</a></li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Hosting<span class="caret"></span></a>
+                            <a href="services.php" data-toggle="dropdown">Services<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="shared-hosting.html">Shared Hosting</a></li>
-                                <li><a href="reseller-hosting.html">Reseller Hosting</a></li>
-                                <li><a href="vps-hosting.html">VPS Hosting</a></li>
-                                <li><a href="dedicated-hosting.html">Dedicated Hosting</a></li>
+                                <li>
+                                  <!--Sub Menu Drop Down-->
+                                  <li class="dropdown-submenu">
+                                    <a class="test" tabindex="-1" href="web-development.php">Web Development<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a tabindex="-1" href="#">Personal Website</a></li>
+                                      <li><a tabindex="-1" href="#">eCommerce Website</a></li>
+                                      <li><a tabindex="-1" href="#">Bespoke Website</a></li>
+                                    </ul>
+                                  </li>
+                                  <!--Sub Menu Drop Down-->
+                                </li>
+                                <li>
+                                  <!--Sub Menu Drop Down-->
+                                  <li class="dropdown-submenu">
+                                    <a class="test" tabindex="-1" href="website-design.php">Website Design<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a tabindex="-1" href="#">PSD Design</a></li>
+                                      <li><a tabindex="-1" href="#">UI/UX Package</a></li>
+                                    </ul>
+                                  </li>
+                                  <!--Sub Menu Drop Down-->
+                                </li>
+                                <li>
+                                  <!--Sub Menu Drop Down-->
+                                  <li class="dropdown-submenu">
+                                    <a class="test" tabindex="-1" href="web-hosting.php">Web Hosting<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a tabindex="-1" href="#">Basic Package</a></li>
+                                      <li><a tabindex="-1" href="#">Personal Package</a></li>
+                                      <li><a tabindex="-1" href="#">Advanced Package</a></li>
+                                    </ul>
+                                  </li>
+                                  <!--Sub Menu Drop Down-->
+                                </li>
+                                <li><a tabindex="-1" href="website-maintenance.php">Website Maintenance</a></li>
+                                <li><a tabindex="-1" href="SEO.php">SEO / Social Media</a></li>
+                                <li><a tabindex="-1" href="it-solutions.php">IT Solutions</a></li>
+                              </li>
                             </ul>
                         </li>
-                        <li><a href="domain.html">Domain</a></li>
-                        <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Pages<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="testimonial.html">Testimonial</a></li>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="signup.html">Signup</a></li>
-                                <li><a href="affiliate.html">Affiliate</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Blog<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="our-work.php">Our Work</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <!-- Header Nav End -->
