@@ -48,7 +48,7 @@
                                 <li>
                                   <!--Sub Menu Drop Down-->
                                   <li class="dropdown-submenu">
-                                    <a class="test" tabindex="-1" href="#">Web Development<span class="caret"></span></a>
+                                    <a class="test" tabindex="-1" href="web-development.php">Web Development<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                       <li><a tabindex="-1" href="#">Personal Website</a></li>
                                       <li><a tabindex="-1" href="#">eCommerce Website</a></li>
@@ -60,7 +60,7 @@
                                 <li>
                                   <!--Sub Menu Drop Down-->
                                   <li class="dropdown-submenu">
-                                    <a class="test" tabindex="-1" href="#">Website Design<span class="caret"></span></a>
+                                    <a class="test" tabindex="-1" href="website-design.php">Website Design<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                       <li><a tabindex="-1" href="#">PSD Design</a></li>
                                       <li><a tabindex="-1" href="#">UI/UX Package</a></li>
@@ -71,7 +71,7 @@
                                 <li>
                                   <!--Sub Menu Drop Down-->
                                   <li class="dropdown-submenu">
-                                    <a class="test" tabindex="-1" href="#">Web Hosting<span class="caret"></span></a>
+                                    <a class="test" tabindex="-1" href="web-hosting.php">Web Hosting<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                       <li><a tabindex="-1" href="#">Basic Package</a></li>
                                       <li><a tabindex="-1" href="#">Personal Package</a></li>
@@ -80,14 +80,14 @@
                                   </li>
                                   <!--Sub Menu Drop Down-->
                                 </li>
-                                <li><a tabindex="-1" href="#">Website Maintenance</a></li>
-                                <li><a tabindex="-1" href="#">SEO / Social Media</a></li>
-                                <li><a tabindex="-1" href="#">IT Solutions</a></li>
+                                <li><a tabindex="-1" href="website-maintenance.php">Website Maintenance</a></li>
+                                <li><a tabindex="-1" href="SEO.php">SEO / Social Media</a></li>
+                                <li><a tabindex="-1" href="it-solutions.php">IT Solutions</a></li>
                               </li>
                             </ul>
                         </li>
-                        <li><a href="domain.html">Our Work</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="our-work.php">Our Work</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <!-- Header Nav End -->
