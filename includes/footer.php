@@ -96,5 +96,16 @@
 
 <!-- ====Main Script==== -->
 <script src="js/main.js"></script>
+
+<!-- ====Nav Drop Down Submenu==== -->
+<script>
+ $(document).ready(function(){
+   $('.dropdown-submenu a.test').on("click", function(e){
+     $(this).next('ul').toggle();
+     e.stopPropagation();
+    e.preventDefault();
+   });
+ });
+ </script>
 </body>
 </html>
