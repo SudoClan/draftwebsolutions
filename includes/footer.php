@@ -98,17 +98,17 @@
 <script src="js/main.js"></script>
 
 <!-- ====Nav Drop Down Submenu==== -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
-// by removing this code and using the custom css in the header has fixed this issue.
- // $(document).ready(function(){
- //   $('.dropdown-submenu a.test').on("click", function(e){
- //     $(this).next('ul').toggle();
- //     e.stopPropagation();
- //    e.preventDefault();
- //   });
- // });
+by removing this code and using the custom css in the header has fixed this issue.
+ $(document).ready(function(){
+   $('.dropdown-submenu a.test').on("click", function(e){
+     $(this).next('ul').toggle();
+     e.stopPropagation();
+    e.preventDefault();
+   });
+ });
  </script>
  <!-- ====Nav Drop Down Submenu==== -->
 
