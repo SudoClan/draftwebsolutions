@@ -398,47 +398,47 @@ Author : themelooks.com
             }, document.getElementById('twitterTimeline'));
         }
 
-    //     /* ------------------------------------------------------------------------- *
-    //      * COLOR SWITCHER
-    //      * ------------------------------------------------------------------------- */
-    //     if ( $wn.outerWidth() > 767 ) {
-    //         $.cColorSwitcher({
-    //             'switcherTitle': 'Main Colors:',
-    //             'switcherColors': [{
-    //                 bgColor: '#ff4719',
-    //                 filepath: 'css/colors/theme-color-1.css'
-    //             }, {
-    //                 bgColor: '#8bc34a',
-    //                 filepath: 'css/colors/theme-color-2.css'
-    //             }, {
-    //                 bgColor: '#03a9f4',
-    //                 filepath: 'css/colors/theme-color-3.css'
-    //             }, {
-    //                 bgColor: '#ff9600',
-    //                 filepath: 'css/colors/theme-color-4.css'
-    //             }, {
-    //                 bgColor: '#e91e63',
-    //                 filepath: 'css/colors/theme-color-5.css'
-    //             }, {
-    //                 bgColor: '#00BCD4',
-    //                 filepath: 'css/colors/theme-color-6.css'
-    //             }, {
-    //                 bgColor: '#8CBEB2',
-    //                 filepath: 'css/colors/theme-color-7.css'
-    //             }, {
-    //                 bgColor: '#00B249',
-    //                 filepath: 'css/colors/theme-color-8.css'
-    //             }, {
-    //                 bgColor: '#4267b2',
-    //                 filepath: 'css/colors/theme-color-9.css'
-    //             }, {
-    //                 bgColor: '#e9e9e9',
-    //                 filepath: 'css/colors/theme-color-10.css'
-    //             }],
-    //             'switcherTarget': $('#changeColorScheme')
-    //         });
-    //     }
-    // });
+        /* ------------------------------------------------------------------------- *
+         * COLOR SWITCHER
+         * ------------------------------------------------------------------------- */
+        if ( $wn.outerWidth() > 767 ) {
+            $.cColorSwitcher({
+                'switcherTitle': 'Main Colors:',
+                'switcherColors': [{
+                    bgColor: '#ff4719',
+                    filepath: 'css/colors/theme-color-1.css'
+                }, {
+                    bgColor: '#8bc34a',
+                    filepath: 'css/colors/theme-color-2.css'
+                }, {
+                    bgColor: '#03a9f4',
+                    filepath: 'css/colors/theme-color-3.css'
+                }, {
+                    bgColor: '#ff9600',
+                    filepath: 'css/colors/theme-color-4.css'
+                }, {
+                    bgColor: '#e91e63',
+                    filepath: 'css/colors/theme-color-5.css'
+                }, {
+                    bgColor: '#00BCD4',
+                    filepath: 'css/colors/theme-color-6.css'
+                }, {
+                    bgColor: '#8CBEB2',
+                    filepath: 'css/colors/theme-color-7.css'
+                }, {
+                    bgColor: '#00B249',
+                    filepath: 'css/colors/theme-color-8.css'
+                }, {
+                    bgColor: '#4267b2',
+                    filepath: 'css/colors/theme-color-9.css'
+                }, {
+                    bgColor: '#e9e9e9',
+                    filepath: 'css/colors/theme-color-10.css'
+                }],
+                'switcherTarget': $('#changeColorScheme')
+            });
+        }
+    });
 
     $wn.on('load', function () {
         /* -------------------------------------------------------------------------*
